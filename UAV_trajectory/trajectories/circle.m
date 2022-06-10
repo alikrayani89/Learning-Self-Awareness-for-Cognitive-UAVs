@@ -3,9 +3,9 @@ function [desired_state] = circle(t, qn)
 
 % =================== Your code goes here ===================
 % You have to set the pos, vel, acc, yaw and yawdot variables
-time_tol = 30; %% akr original 12 seconds
-radius = 5;  %% akr original 5
-dt = 0.0001;  %% akr original 0.0001
+time_tol = 30; 
+radius = 5; 
+dt = 0.0001; 
 
     function pos = pos_from_angle(a)
         pos = [radius*cos(a); radius*sin(a); 2.5*a/(2*pi)]; %% akr original 2.5
@@ -19,7 +19,7 @@ dt = 0.0001;  %% akr original 0.0001
     end
 
 if t > time_tol
-    pos = [radius; 0; 2.5];  %% akr original radius, 0, 2.5
+    pos = [radius; 0; 2.5];
     vel = [0;0;0];
     acc = [0;0;0];
 else
