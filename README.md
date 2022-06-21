@@ -7,4 +7,4 @@
 
 ##### NOTE: After completing the project, other parts of the dataset and of the code for jammer detection, jammer classification and anti-jamming will be available here.
 
-####### Run Alg0 to learn the vocabularies and Alg1 to detect the jammer. 
+###### Run Alg0 to learn the vocabularies and Alg1 to detect the jammer. 
