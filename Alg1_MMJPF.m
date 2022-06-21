@@ -8,13 +8,14 @@ cd(curDir)
 
 addpath('./Testing (jammer detection)');
 addpath('./Probabilistic_distances')
+addpath('./Bayesian Filtering/ekfukf')
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Define parameters
 
 %% Select a certain example from DataSet
 example = 1;
-snr = 18;
+snr = 20;
 
 dirtemp = strcat(curDir, '\DataSet\Ex', num2str(example), '\SNR_', num2str(snr), 'dB');
 cd(dirtemp)
