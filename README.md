@@ -5,4 +5,4 @@
 
 ##### In the Dataset folder we shared only one example of the commands received by the UAV during normal situation and during abnormal situation (i.e., under jamming attacks).
 
-##### NOTE: The full Dataset, along with the complete code for jammer detection, jammer classification and anti-jamming, will be available here upon completing the project.
+##### NOTE: After completing the project, other parts of the dataset and of the code for jammer detection, jammer classification and anti-jamming will be available here.
