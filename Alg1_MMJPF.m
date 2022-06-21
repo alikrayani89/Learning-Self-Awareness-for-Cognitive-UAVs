@@ -6,7 +6,7 @@ close all
 curDir = pwd;
 cd(curDir)
 
-addpath('./Testing_codes');
+addpath('./Testing (jammer detection)');
 addpath('./Probabilistic_distances')
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
