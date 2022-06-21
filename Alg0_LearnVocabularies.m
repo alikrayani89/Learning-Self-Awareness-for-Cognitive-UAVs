@@ -7,8 +7,8 @@ close all
 curDir = pwd;
 cd(curDir)
 
-addpath('./Training_codes');
-addpath('./Plots_scripts');
+addpath('./Learning');
+addpath('./Plot_scripts');
 
 %% Select a certain example from DataSet
 example = 1;
